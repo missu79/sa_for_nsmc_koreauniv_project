@@ -1,5 +1,5 @@
 ## 네이버 영화 리뷰 감정분석기 개발<br>
-(고려대 디지털금융공학석사 과정 기말 프로젝트)
+(고려대 디지털금융공학석사 과정 기말 프로젝트) <br>
 sentimental analysis for 'nsmc:naver sentiment movie corpus'
 
 ## **참고한 소스**
