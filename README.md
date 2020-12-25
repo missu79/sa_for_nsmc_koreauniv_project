@@ -54,7 +54,7 @@ ratings_train.txt <br>
 
 - 캐글 클래스 경진대회에 올린 결과 <br>
 public 결과는 0.87573(15등) <br>
-private 결과는 0.88219(18등) <br>
+private 결과는 0.88219(18) <br>
 
 ![nsmc_c_title](https://user-images.githubusercontent.com/76524741/103125374-3fa64280-46ce-11eb-8415-1cf3f31d0882.png)
 ![nsmc_public_ldbd](https://user-images.githubusercontent.com/76524741/103125383-43d26000-46ce-11eb-9225-e36ff03fadea.png)
@@ -70,4 +70,4 @@ private 결과는 0.88219(18등) <br>
 3. 배치사이즈를 크게 하면 속도향상에는 도움이 되나, 메모리가 좋아야 가능함. 256으로 돌려보니, runtime error가 발생하였음. <br>
 안전하게 32로 세팅
 4. 파라미터 조정(learning rate, epoch, batch size 등) 조정하여 여러번 돌려볼 필요가 있음
-5. 추후 한국어에 특화된 ko-BERT 모델을 사용하면, 정확도 향상을 기대할 수  
+5. 추후 한국어에 특화된 ko-BERT 모델을 사용하면, 정확도 향상을 기대할 수 있음
