@@ -25,20 +25,20 @@ sentimental analysis for 'nsmc:naver sentiment movie corpus'
 
 ## **데이터**
 
-- friends_train.json <br>
-friends_dev.json <br>
-friends_test.json <br>
-출처 : http://doraemon.iis.sinica.edu.tw/emotionlines/index.html
+- ratings_test.txt <br>
+ratings_train.txt <br>
+출처 : https://github.com/e9t/nsmc
 
-- en_data.csv <br>
-출처 : https://www.kaggle.com/c/english-sa-competition-dfe610/data
+- ko_data.csv <br>
+출처 : https://www.kaggle.com/c/korean-sa-competition-dfe610/data
 
-- friends_final.csv <br>
+- nsmc_final.csv <br>
 코드를 돌려서 나온 최종값 <br>
 이것을 캐글 클래스 경진대회에 올려서 평가함
 
 ## **패키지**
 
+- tensorflow
 - torch
 - pandas
 - numpy
@@ -46,19 +46,17 @@ friends_test.json <br>
 
 ## **전처리 및 모델링**
 
- - RoBERTa 사용
+ - BERT 사용
  - optimizer는 AdamW 사용
- - parameter 
+ - parameter 조정 
  
 ## **평가**
 
 - 캐글 클래스 경진대회에 올린 결과 <br>
-public 결과는 0.59679(1등) <br>
-private 결과는 0.63054(2등) <br>
+public 결과는 0.87573(15등) <br>
+private 결과는 0.88219(18등) <br>
 
-![frineds_c_title](https://user-images.githubusercontent.com/76524741/103113239-33ee5800-469d-11eb-9890-1cae3d6fcec7.png)
-![frineds_public_ldbd](https://user-images.githubusercontent.com/76524741/103113244-3a7ccf80-469d-11eb-8a8e-3134b3c3e7b0.png)
-![frineds_private_ldbd](https://user-images.githubusercontent.com/76524741/103113246-3cdf2980-469d-11eb-9f82-bc6e79dc1b1b.png)
+
 
 ## **팁**
 
